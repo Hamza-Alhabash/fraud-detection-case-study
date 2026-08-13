@@ -1,0 +1,38 @@
+{
+  "dataset": {
+    "rows": 594643,
+    "fraud_rate": 0.012108105199254007,
+    "split_step": 144
+  },
+  "best_params": {
+    "colsample_bytree": 0.7836995567863468,
+    "gamma": 1.668543055695109,
+    "learning_rate": 0.029447905545150106,
+    "max_depth": 5,
+    "min_child_weight": 6,
+    "n_estimators": 508,
+    "reg_lambda": 8.706020878304859,
+    "subsample": 0.9329770563201687
+  },
+  "test_metrics": {
+    "pr_auc": 0.9351675483008308,
+    "roc_auc": 0.9989382916048053,
+    "threshold": 0.7100000000000001,
+    "precision": 0.603568320278503,
+    "recall": 0.9631944444444445,
+    "tp": 1387,
+    "fp": 911,
+    "fn": 53,
+    "tn": 130880
+  },
+  "business": {
+    "fraud_value_prevented": 731757.125,
+    "fraud_value_missed": 3549.6796875,
+    "alerts_per_day": 1532.0,
+    "review_cost_assumption": 5.0
+  },
+  "leakage_check": {
+    "random_split_pr_auc": 0.9338843219918812,
+    "temporal_split_pr_auc": 0.9225885533064853
+  }
+}
